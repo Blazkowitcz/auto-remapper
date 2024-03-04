@@ -1,0 +1,29 @@
+{
+  "name": "auto-remapper",
+  "version": "1.0.3",
+  "description": "Automatic input-remapper preset loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "start": "electron-forge start",
+    "dev": "electron ."
+  },
+  "author": "Blazkowicz",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-rpm": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.0",
+    "@electron-forge/plugin-fuses": "^7.3.0",
+    "electron": "^29.1.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "node-notifier": "^10.0.1"
+  }
+}
